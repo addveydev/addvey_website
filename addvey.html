@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addvey - Buy, Sell, Lease</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Addvey</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog-detail.html">Blog Detail</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-5">
+        <h1>Welcome to Addvey</h1>
+        <p>Buy, Sell, and Lease Made Easy</p>
+    </header>
+
+    <section class="container text-center my-5">
+        <h2>Get Started</h2>
+        <ul class="list-unstyled">
+            <li>✔️ Start Where You Are</li>
+            <li>✔️ Use What You Have</li>
+            <li>✔️ Do What You Can</li>
+        </ul>
+    </section>
+
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3>Addvey Buy/Sell</h3>
+                <p>For customers: Browse and buy with ease.</p>
+                <p>For businesses: Sell seamlessly.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="phone.png" class="img-fluid" alt="App Screenshot">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">Latest Blogs</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="blog1.jpg" class="card-img-top" alt="Car">
+                    <div class="card-body">
+                        <h5 class="card-title">Luxury Car Market Trends</h5>
+                        <p class="card-text">Discover the latest trends in the car industry.</p>
+                        <a href="blog-detail.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="blog2.jpg" class="card-img-top" alt="Car">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Buy/Sell Cars Online</h5>
+                        <p class="card-text">Tips for safe and smart online transactions.</p>
+                        <a href="blog-detail.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 text-center">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us.</p>
+        <a href="contact.html" class="btn btn-lg btn-success">Get in Touch</a>
+    </section>
+
+    <footer class="bg-light text-center py-4">
+        <p>Crafted with ❤️ in India. Follow us on <a href="#">Social Media</a></p>
+    </footer>
+
+    <!-- Blogs Page -->
+    <section class="container my-5">
+        <h2>All Blogs</h2>
+        <p>Explore our latest articles and industry news.</p>
+    </section>
+
+    <!-- Blog Detail Page -->
+    <section class="container my-5">
+        <h2>Blog Title</h2>
+        <p>Detailed content of the selected blog.</p>
+    </section>
+
+    <!-- Contact Page -->
+    <section class="container my-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+</body>
+</html>
